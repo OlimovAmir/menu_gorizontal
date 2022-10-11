@@ -1,5 +1,6 @@
 body {
-    background-image: url(/img/einar-ingi-sigmundsson-QO_XjRt_Hkk-unsplash.jpg);
+    background-image: url('../einar-ingi-sigmundsson-QO_XjRt_Hkk-unsplash.jpg');
+    background-repeat: no-repeat;
     font-family: sans-serif;
 }
 
@@ -99,7 +100,7 @@ button.active {
 .dws_menu li ul {
     position: absolute;
     min-width: 140px;
-    display: none;
+    display: none;   
 }
 
 .dws_menu li>ul li {
@@ -126,4 +127,5 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfe7fa', end
 
 .dws_menu li:hover >ul {
     display: block;
+   
 }
